@@ -1,0 +1,39 @@
+.card {
+    min-width: 56rem;
+    min-height: 30.25rem;
+    background-color: rgb(221, 221, 221);
+    border-radius: 10px;
+    padding-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 6rem;
+}
+
+.results {
+    margin: 1rem auto 0;
+    font-size: 1.5rem;
+}
+
+
+.results p:nth-child(2) {
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.slideBar {
+    display: flex;
+    min-width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.slideBar input {
+    width: 20rem;
+
+}
+
+.slideBar p {
+    font-size: 1.25rem;
+}
