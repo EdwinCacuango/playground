@@ -4,7 +4,7 @@ import Layout from "../components/Layout";
 const Contact = () => {
   return (
     <Layout>
-      <h1 className="text-5xl my-6">Ready to connect with me?</h1>
+      <h1 className="text-5xl my-16">Ready to connect with me?</h1>
       <form className="border border-black max-w-[38.875rem] min-h-[439px] mx-auto p-3 flex flex-col justify-between px-[64px] pt-[64px]">
         <h2 className="font-bold text-3xl text-left mb-6">Lets connect!</h2>
         <div className="flex gap-3 justify-between my-4 ">
