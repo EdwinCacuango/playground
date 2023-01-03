@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import logo from "../assets/logo.png";
+import logo from "../../assets/logo.png";
 
 const Logo = () => {
   return (
@@ -10,12 +10,11 @@ const Logo = () => {
   );
 };
 
-const Navbar = () => {
+const Desktop = ({ addStyles }) => {
   let activeStyle = {
     textDecoration: "underline",
     textUnderlineOffset: "8px",
   };
-  let activeClassName = "underline";
   const links = [
     { label: "Home", route: "/" },
     { label: "IMC Calculator", route: "/imc-calculator" },
@@ -26,7 +25,7 @@ const Navbar = () => {
     { label: "Contact", route: "/contact" },
   ];
   return (
-    <nav className="w-full border-b border-slate-300 py-10  ">
+    <nav className={`w-full border-b border-slate-300 py-10 ${addStyles}`}>
       <ul className="flex justify-around w-full list-none items-center">
         {links.map((item) => {
           let value = typeof item.label;
@@ -57,4 +56,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Desktop;
