@@ -1,4 +1,4 @@
-# Portfolio
+# Playground - Kruger Star Project
 ![Image with website view in all device sizes](./public/screenshoot.png)
 ## Built with
 - React
