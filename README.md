@@ -1,4 +1,5 @@
 # Portfolio
+![Image with website view in all device sizes](./public/screenshoot.png)
 ## Built with
 - React
 - Tailwind CSS
